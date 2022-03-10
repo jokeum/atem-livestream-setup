@@ -639,7 +639,7 @@
             <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="1" input="Camera1"/>
         </Macro>
         <Macro index="4" name="cam add speaker title" description="cam1 + mask out bottom of cam7">
-            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera2"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera1"/>
             <Op id="CutTransition" mixEffectBlockIndex="0"/>
             <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="Chroma"/>
             <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera7"/>
