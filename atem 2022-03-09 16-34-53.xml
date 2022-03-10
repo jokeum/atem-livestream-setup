@@ -638,7 +638,21 @@
             <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="0" input="Camera2"/>
             <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="1" input="Camera1"/>
         </Macro>
-        <Macro index="5" name="add speaker title 2" description="mask out bottom of cam7">
+        <Macro index="4" name="cam add speaker title" description="cam1 + mask out bottom of cam7">
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera2"/>
+            <Op id="CutTransition" mixEffectBlockIndex="0"/>
+            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="Chroma"/>
+            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera7"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="-16"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="-5.00002"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="16"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="-9.00002"/>
+        </Macro>
+        <Macro index="5" name="cam add speaker title 2" description="cam2 + mask out bottom of cam7">
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera2"/>
+            <Op id="CutTransition" mixEffectBlockIndex="0"/>
             <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="Chroma"/>
             <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera7"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
