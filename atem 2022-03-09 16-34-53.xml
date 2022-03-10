@@ -2,40 +2,40 @@
 <Profile majorVersion="1" minorVersion="5" product="ATEM Mini Extreme ISO">
     <MixEffectBlocks>
         <MixEffectBlock index="0">
-            <Program input="1"/>
-            <Preview input="8"/>
+            <Program input="2"/>
+            <Preview input="2"/>
             <NextTransition selection="Background" nextSelection="Background"/>
-            <TransitionStyle style="Mix" nextStyle="Mix" previewTransition="False" transitionPosition="0">
-                <MixParameters rate="15"/>
+            <TransitionStyle style="DVE" nextStyle="DVE" previewTransition="False" transitionPosition="0">
+                <MixParameters rate="30"/>
                 <DipParameters rate="30" input="2001"/>
                 <WipeParameters rate="30" pattern="TopToBottomBar" symmetry="50" xPosition="0.5" yPosition="0.5" reverseDirection="False" flipFlip="False" borderInput="2001" borderWidth="0" borderSoftness="83"/>
-                <DVEParameters rate="30" logoRate="30" reverseDirection="False" flipFlop="False" effect="PushRight" fillSource="3010" keySource="3011" enableKey="True" preMultipliedKey="True" clip="50" gain="70" invertKey="False"/>
+                <DVEParameters rate="30" logoRate="30" reverseDirection="False" flipFlop="False" effect="SqueezeRight" fillSource="3010" keySource="3011" enableKey="True" preMultipliedKey="True" clip="50" gain="70" invertKey="False"/>
             </TransitionStyle>
             <Keys>
-                <Key index="0" type="DVE" inputCut="3011" inputFill="7" onAir="False" masked="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16">
+                <Key index="0" type="Chroma" inputCut="3011" inputFill="7" onAir="False" masked="False" maskTop="-5" maskBottom="-9" maskLeft="-16" maskRight="16">
                     <LumaParameters preMultiplied="True" clip="50" gain="70" inverse="False"/>
-                    <AdvancedChromaParameters foregroundLevel="0" backgroundLevel="0" keyEdge="50" spillSuppress="0" flareSuppress="0" brightness="0" contrast="0" saturation="100" red="0" green="0" blue="0" cursorXPosition="-15.35" cursorYPosition="8.35" cursorSize="6.2" sampledY="0.6748" sampledCb="0.1621" sampledCr="0.1015"/>
+                    <AdvancedChromaParameters foregroundLevel="0" backgroundLevel="0" keyEdge="50" spillSuppress="0" flareSuppress="0" brightness="0" contrast="0" saturation="100" red="0" green="0" blue="0" cursorXPosition="-15.38" cursorYPosition="8.38" cursorSize="6.25" sampledY="0.6748" sampledCb="0.1621" sampledCr="0.1015"/>
                     <PatternParameters style="DiamondIris" inverse="False" size="50" symmetry="50" softness="83" xPosition="0.5" yPosition="0.5"/>
                     <DVEParameters maskEnabled="True" maskTop="3" maskBottom="0" maskLeft="0" maskRight="0" shadowEnabled="False" lightSourceDirection="36" lightSourceAltitude="25" borderEnabled="False" borderStyle="None" borderBevelHue="0" borderBevelSaturation="0" borderBevelLuma="0" borderWidthOut="0" borderWidthIn="0.2" borderSoftnessOut="0" borderSoftnessIn="0" borderBevelOpacity="100" borderBevelPosition="0" borderBevelSoftness="0"/>
                     <FlyParameters enabled="False" xPosition="0" yPosition="0" xSize="1" ySize="1" rotation="0" rate="30"/>
                 </Key>
                 <Key index="1" type="Luma" inputCut="3011" inputFill="1" onAir="False" masked="True" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16">
                     <LumaParameters preMultiplied="True" clip="50" gain="70" inverse="False"/>
-                    <AdvancedChromaParameters foregroundLevel="0" backgroundLevel="0" keyEdge="50" spillSuppress="0" flareSuppress="0" brightness="0" contrast="0" saturation="100" red="0" green="0" blue="0" cursorXPosition="-15.35" cursorYPosition="8.35" cursorSize="6.2" sampledY="0.6748" sampledCb="0.1621" sampledCr="0.1015"/>
+                    <AdvancedChromaParameters foregroundLevel="0" backgroundLevel="0" keyEdge="50" spillSuppress="0" flareSuppress="0" brightness="0" contrast="0" saturation="100" red="0" green="0" blue="0" cursorXPosition="-15.38" cursorYPosition="8.38" cursorSize="6.25" sampledY="0.6748" sampledCb="0.1621" sampledCr="0.1015"/>
                     <PatternParameters style="DiamondIris" inverse="False" size="50" symmetry="50" softness="83" xPosition="0.5" yPosition="0.5"/>
-                    <DVEParameters maskEnabled="False" maskTop="0" maskBottom="0" maskLeft="4.5" maskRight="4.5" shadowEnabled="False" lightSourceDirection="36" lightSourceAltitude="25" borderEnabled="True" borderStyle="None" borderBevelHue="0" borderBevelSaturation="0" borderBevelLuma="0" borderWidthOut="0" borderWidthIn="0.2" borderSoftnessOut="0" borderSoftnessIn="0" borderBevelOpacity="100" borderBevelPosition="0" borderBevelSoftness="0"/>
+                    <DVEParameters maskEnabled="False" maskTop="0" maskBottom="0" maskLeft="0" maskRight="0" shadowEnabled="False" lightSourceDirection="36" lightSourceAltitude="25" borderEnabled="True" borderStyle="None" borderBevelHue="0" borderBevelSaturation="0" borderBevelLuma="0" borderWidthOut="0" borderWidthIn="0.2" borderSoftnessOut="0" borderSoftnessIn="0" borderBevelOpacity="100" borderBevelPosition="0" borderBevelSoftness="0"/>
                     <FlyParameters enabled="True" xPosition="11.4" yPosition="-5.3" xSize="0.38" ySize="0.38" rotation="0" rate="30"/>
                 </Key>
                 <Key index="2" type="Luma" inputCut="3011" inputFill="3010" onAir="False" masked="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16">
                     <LumaParameters preMultiplied="True" clip="50" gain="70" inverse="False"/>
-                    <AdvancedChromaParameters foregroundLevel="0" backgroundLevel="0" keyEdge="50" spillSuppress="0" flareSuppress="0" brightness="0" contrast="0" saturation="100" red="0" green="0" blue="0" cursorXPosition="-15.35" cursorYPosition="8.35" cursorSize="6.2" sampledY="0.6748" sampledCb="0.1621" sampledCr="0.1015"/>
+                    <AdvancedChromaParameters foregroundLevel="0" backgroundLevel="0" keyEdge="50" spillSuppress="0" flareSuppress="0" brightness="0" contrast="0" saturation="100" red="0" green="0" blue="0" cursorXPosition="-15.38" cursorYPosition="8.38" cursorSize="6.25" sampledY="0.6748" sampledCb="0.1621" sampledCr="0.1015"/>
                     <PatternParameters style="DiamondIris" inverse="False" size="50" symmetry="50" softness="83" xPosition="0.5" yPosition="0.5"/>
                     <DVEParameters maskEnabled="False" maskTop="0" maskBottom="0" maskLeft="0" maskRight="0" shadowEnabled="False" lightSourceDirection="36" lightSourceAltitude="25" borderEnabled="True" borderStyle="None" borderBevelHue="0" borderBevelSaturation="0" borderBevelLuma="0" borderWidthOut="0" borderWidthIn="0.2" borderSoftnessOut="0" borderSoftnessIn="0" borderBevelOpacity="100" borderBevelPosition="0" borderBevelSoftness="0"/>
                     <FlyParameters enabled="False" xPosition="12.5" yPosition="7" xSize="0.2" ySize="0.2" rotation="0" rate="30"/>
                 </Key>
                 <Key index="3" type="Luma" inputCut="3011" inputFill="3010" onAir="False" masked="False" maskTop="9" maskBottom="-9" maskLeft="-16" maskRight="16">
                     <LumaParameters preMultiplied="True" clip="50" gain="70" inverse="False"/>
-                    <AdvancedChromaParameters foregroundLevel="0" backgroundLevel="0" keyEdge="50" spillSuppress="0" flareSuppress="0" brightness="0" contrast="0" saturation="100" red="0" green="0" blue="0" cursorXPosition="-15.35" cursorYPosition="8.35" cursorSize="6.2" sampledY="0.6748" sampledCb="0.1621" sampledCr="0.1015"/>
+                    <AdvancedChromaParameters foregroundLevel="0" backgroundLevel="0" keyEdge="50" spillSuppress="0" flareSuppress="0" brightness="0" contrast="0" saturation="100" red="0" green="0" blue="0" cursorXPosition="-15.38" cursorYPosition="8.38" cursorSize="6.25" sampledY="0.6748" sampledCb="0.1621" sampledCr="0.1015"/>
                     <PatternParameters style="DiamondIris" inverse="False" size="50" symmetry="50" softness="83" xPosition="0.5" yPosition="0.5"/>
                     <DVEParameters maskEnabled="False" maskTop="0" maskBottom="0" maskLeft="0" maskRight="0" shadowEnabled="False" lightSourceDirection="36" lightSourceAltitude="25" borderEnabled="True" borderStyle="None" borderBevelHue="0" borderBevelSaturation="0" borderBevelLuma="0" borderWidthOut="0" borderWidthIn="0.2" borderSoftnessOut="0" borderSoftnessIn="0" borderBevelOpacity="100" borderBevelPosition="0" borderBevelSoftness="0"/>
                     <FlyParameters enabled="False" xPosition="12.5" yPosition="7" xSize="0.2" ySize="0.2" rotation="0" rate="30"/>
@@ -272,7 +272,7 @@
             </AudioInput>
             <AudioInput configuration="Stereo" id="1301">
                 <Analog level="ConsumerLine"/>
-                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0" mixOption="Off" delayFrames="0">
+                <AudioSource id="-65280" inputGain="0" pan="0" faderGain="0" mixOption="On" delayFrames="0">
                     <Equalizer enabled="True" gain="0">
                         <EqualizerBand index="0" enabled="False" shape="HighPass" frequencyRange="Low" frequency="46" gain="0" qFactor="0.71"/>
                         <EqualizerBand index="1" enabled="True" shape="LowShelf" frequencyRange="Low" frequency="49" gain="0" qFactor="1"/>
@@ -308,7 +308,7 @@
             </AudioInput>
         </AudioInputs>
         <AudioHeadphoneOutputs>
-            <AudioHeadphoneOutput index="0" gain="-15" masterOutGain="-6" masterOutMute="True" talkbackMute="True" Solo="False">
+            <AudioHeadphoneOutput index="0" gain="-15" masterOutGain="-6" masterOutMute="False" talkbackMute="True" Solo="False">
                 <SoloInput id="1" source="-1"/>
             </AudioHeadphoneOutput>
         </AudioHeadphoneOutputs>
@@ -320,8 +320,8 @@
     <SuperSources>
         <SuperSource index="0" artFillInput="3010" artKeyInput="3011" artOption="Background" artPreMultiplied="False" artClip="50" artGain="70" artInvertKey="False">
             <Boxes>
-                <Box index="0" enabled="True" inputSource="1" xPosition="-10.92" yPosition="-5" size="0.45" cropped="True" cropTop="0" cropBottom="0" cropLeft="5" cropRight="5"/>
-                <Box index="1" enabled="True" inputSource="8" xPosition="5.02" yPosition="-0.1" size="0.67" cropped="False" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
+                <Box index="0" enabled="True" inputSource="2" xPosition="-10.92" yPosition="-5" size="0.45" cropped="True" cropTop="0" cropBottom="0" cropLeft="5" cropRight="5"/>
+                <Box index="1" enabled="True" inputSource="1" xPosition="5.02" yPosition="-0.1" size="0.67" cropped="False" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
                 <Box index="2" enabled="False" inputSource="3" xPosition="0" yPosition="0" size="1" cropped="False" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
                 <Box index="3" enabled="False" inputSource="8" xPosition="0" yPosition="0" size="1" cropped="False" cropTop="0" cropBottom="0" cropLeft="0" cropRight="0"/>
             </Boxes>
@@ -449,7 +449,7 @@
         <Property device="8" property="Locked" value="False"/>
     </CameraControl>
     <MacroPool>
-        <Macro index="0" name="s/src cam+slide" description="s/src cam1 at LB, cam8 at R, cam7(dve) at top">
+        <Macro index="0" name="s/src cam+slide" description="s/src cam1 at LB, cam8 at R, cam7 at top">
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="SuperSource"/>
             <Op id="CutTransition" mixEffectBlockIndex="0"/>
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="SuperSource"/>
@@ -488,6 +488,7 @@
             <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
             <Op id="KeyTypeFillInput" mixEffectBlockIndex="0" keyIndex="0" keyType="Chroma" input="Camera7"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
             <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.449997"/>
             <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-10.92"/>
             <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="-5.00002"/>
@@ -496,7 +497,7 @@
             <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="0" input="Camera1"/>
             <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="1" input="Camera8"/>
         </Macro>
-        <Macro index="1" name="s/src cam+slide 2" description="s/src cam2 at LB, cam8 at R, cam7(dve) at top">
+        <Macro index="1" name="s/src cam+slide 2" description="s/src cam2 at LB, cam8 at R, cam7 at top">
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="SuperSource"/>
             <Op id="CutTransition" mixEffectBlockIndex="0"/>
             <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="2"/>
@@ -534,6 +535,7 @@
             <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
             <Op id="KeyTypeFillInput" mixEffectBlockIndex="0" keyIndex="0" keyType="Chroma" input="Camera7"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
             <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.449997"/>
             <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-10.92"/>
             <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="-5.00002"/>
@@ -542,7 +544,7 @@
             <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="0" input="Camera2"/>
             <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="1" input="Camera8"/>
         </Macro>
-        <Macro index="2" name="s/src cam+cam" description="s/src cam1 at LB, cam2 at R, cam7(dve) at top">
+        <Macro index="2" name="s/src cam+cam" description="s/src cam1 at LB, cam2 at R, cam7 at top">
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="SuperSource"/>
             <Op id="CutTransition" mixEffectBlockIndex="0"/>
             <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="2"/>
@@ -580,6 +582,7 @@
             <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
             <Op id="KeyTypeFillInput" mixEffectBlockIndex="0" keyIndex="0" keyType="Chroma" input="Camera7"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
             <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.449997"/>
             <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-10.92"/>
             <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="-5.00002"/>
@@ -588,7 +591,7 @@
             <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="0" input="Camera1"/>
             <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="1" input="Camera2"/>
         </Macro>
-        <Macro index="3" name="s/src cam+cam 2" description="s/src cam2 at LB, cam1 at R, cam7(dve) at top">
+        <Macro index="3" name="s/src cam+cam 2" description="s/src cam2 at LB, cam1 at R, cam7 at top">
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="SuperSource"/>
             <Op id="CutTransition" mixEffectBlockIndex="0"/>
             <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="2"/>
@@ -626,6 +629,7 @@
             <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
             <Op id="KeyTypeFillInput" mixEffectBlockIndex="0" keyIndex="0" keyType="Chroma" input="Camera7"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
             <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.449997"/>
             <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-10.92"/>
             <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="-5.00002"/>
@@ -634,14 +638,15 @@
             <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="0" input="Camera2"/>
             <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="1" input="Camera1"/>
         </Macro>
-        <Macro index="4" name="add speaker title" description="mask out bottom of cam7(dve)">
-            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="DVE"/>
+        <Macro index="5" name="add speaker title 2" description="mask out bottom of cam7">
+            <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="Chroma"/>
             <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="0" input="Camera7"/>
-            <Op id="DVEKeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
-            <Op id="DVEKeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="0"/>
-            <Op id="DVEKeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="3"/>
-            <Op id="DVEKeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="0"/>
-            <Op id="DVEKeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="0"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="True"/>
+            <Op id="KeyMaskLeft" mixEffectBlockIndex="0" keyIndex="0" left="-16"/>
+            <Op id="KeyMaskTop" mixEffectBlockIndex="0" keyIndex="0" top="-5.00002"/>
+            <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="16"/>
+            <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="-9.00002"/>
         </Macro>
         <Macro index="13" name="3 cam quad view" description="s/src cam1, cam2, cam3, presentation w/ quad layout">
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="SuperSource"/>
