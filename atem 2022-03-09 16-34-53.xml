@@ -544,101 +544,7 @@
             <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="0" input="Camera2"/>
             <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="1" input="Camera8"/>
         </Macro>
-        <Macro index="2" name="s/src cam+cam" description="s/src cam1 at LB, cam2 at R, cam7 at top">
-            <Op id="PreviewInput" mixEffectBlockIndex="0" input="SuperSource"/>
-            <Op id="CutTransition" mixEffectBlockIndex="0"/>
-            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="2"/>
-            <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
-            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True"/>
-            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True"/>
-            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="1" enable="False"/>
-            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="0"/>
-            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
-            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="0"/>
-            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
-            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False"/>
-            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="0"/>
-            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="2" yPosition="0"/>
-            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="2" size="1"/>
-            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="2" enable="False"/>
-            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="2" left="0"/>
-            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="2" top="0"/>
-            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="2" right="0"/>
-            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="2" bottom="0"/>
-            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False"/>
-            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="3" xPosition="0"/>
-            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="3" yPosition="0"/>
-            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="3" size="1"/>
-            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="3" enable="False"/>
-            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="3" left="0"/>
-            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="3" top="0"/>
-            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="3" right="0"/>
-            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="3" bottom="0"/>
-            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="0" enable="True"/>
-            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="0.669998"/>
-            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="5"/>
-            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
-            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="5"/>
-            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
-            <Op id="KeyTypeFillInput" mixEffectBlockIndex="0" keyIndex="0" keyType="Chroma" input="Camera7"/>
-            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
-            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
-            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.449997"/>
-            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-10.92"/>
-            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="-5.00002"/>
-            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="5.02"/>
-            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="-0.100006"/>
-            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="0" input="Camera1"/>
-            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="1" input="Camera2"/>
-        </Macro>
-        <Macro index="3" name="s/src cam+cam 2" description="s/src cam2 at LB, cam1 at R, cam7 at top">
-            <Op id="PreviewInput" mixEffectBlockIndex="0" input="SuperSource"/>
-            <Op id="CutTransition" mixEffectBlockIndex="0"/>
-            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="2"/>
-            <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
-            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True"/>
-            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True"/>
-            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="1" enable="False"/>
-            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="0"/>
-            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
-            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="0"/>
-            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
-            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False"/>
-            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="0"/>
-            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="2" yPosition="0"/>
-            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="2" size="1"/>
-            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="2" enable="False"/>
-            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="2" left="0"/>
-            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="2" top="0"/>
-            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="2" right="0"/>
-            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="2" bottom="0"/>
-            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False"/>
-            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="3" xPosition="0"/>
-            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="3" yPosition="0"/>
-            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="3" size="1"/>
-            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="3" enable="False"/>
-            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="3" left="0"/>
-            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="3" top="0"/>
-            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="3" right="0"/>
-            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="3" bottom="0"/>
-            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="0" enable="True"/>
-            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="0.669998"/>
-            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="5"/>
-            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
-            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="5"/>
-            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
-            <Op id="KeyTypeFillInput" mixEffectBlockIndex="0" keyIndex="0" keyType="Chroma" input="Camera7"/>
-            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
-            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
-            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.449997"/>
-            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-10.92"/>
-            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="-5.00002"/>
-            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="5.02"/>
-            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="-0.100006"/>
-            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="0" input="Camera2"/>
-            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="1" input="Camera1"/>
-        </Macro>
-        <Macro index="4" name="cam add speaker title" description="cam1 + mask out bottom of cam7">
+        <Macro index="2" name="cam add speaker title" description="cam1 + mask out bottom of cam7">
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera1"/>
             <Op id="CutTransition" mixEffectBlockIndex="0"/>
             <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="Chroma"/>
@@ -650,7 +556,7 @@
             <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="16"/>
             <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="-9.00002"/>
         </Macro>
-        <Macro index="5" name="cam add speaker title 2" description="cam2 + mask out bottom of cam7">
+        <Macro index="3" name="cam add speaker title 2" description="cam2 + mask out bottom of cam7">
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera2"/>
             <Op id="CutTransition" mixEffectBlockIndex="0"/>
             <Op id="KeyType" mixEffectBlockIndex="0" keyIndex="0" type="Chroma"/>
@@ -662,7 +568,7 @@
             <Op id="KeyMaskRight" mixEffectBlockIndex="0" keyIndex="0" right="16"/>
             <Op id="KeyMaskBottom" mixEffectBlockIndex="0" keyIndex="0" bottom="-9.00002"/>
         </Macro>
-        <Macro index="13" name="3 cam quad view" description="s/src cam1, cam2, cam3, presentation w/ quad layout">
+        <Macro index="4" name="3 cam quad view" description="s/src cam1, cam2, cam3, presentation w/ quad layout">
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="SuperSource"/>
             <Op id="CutTransition" mixEffectBlockIndex="0"/>
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="SuperSource"/>
@@ -712,25 +618,7 @@
             <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="3" right="0"/>
             <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="3" bottom="0"/>
         </Macro>
-        <Macro index="14" name="2 cam switch 30s" description="*loop* cam1-&gt;cam2-&gt;cam1">
-            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
-            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
-            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
-            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
-            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
-            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera1"/>
-            <Op id="CutTransition" mixEffectBlockIndex="0"/>
-            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera1"/>
-            <Op id="MacroSleep" frames="900"/>
-            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera2"/>
-            <Op id="CutTransition" mixEffectBlockIndex="0"/>
-            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera2"/>
-            <Op id="MacroSleep" frames="900"/>
-            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera1"/>
-            <Op id="CutTransition" mixEffectBlockIndex="0"/>
-            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera1"/>
-        </Macro>
-        <Macro index="15" name="3 cam switch 30s" description="*loop* cam1-&gt;cam2-&gt;cam3-&gt;cam1">
+        <Macro index="5" name="3 cam switch 30s" description="*loop* cam1-&gt;cam2-&gt;cam3-&gt;cam1">
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
@@ -752,7 +640,119 @@
             <Op id="CutTransition" mixEffectBlockIndex="0"/>
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera1"/>
         </Macro>
-        <Macro index="16" name="4 cam quad view" description="s/src cam1, cam2, cam3, cam4 w/ quad layout">
+        <Macro index="6" name="s/src cam+cam" description="s/src cam1 at LB, cam2 at R, cam7 at top">
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="SuperSource"/>
+            <Op id="CutTransition" mixEffectBlockIndex="0"/>
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="2"/>
+            <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="1" enable="False"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="0"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="0"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="2" yPosition="0"/>
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="2" size="1"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="2" enable="False"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="2" left="0"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="2" top="0"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="2" right="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="2" bottom="0"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="3" xPosition="0"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="3" yPosition="0"/>
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="3" size="1"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="3" enable="False"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="3" left="0"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="3" top="0"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="3" right="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="3" bottom="0"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="0.669998"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="5"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="5"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+            <Op id="KeyTypeFillInput" mixEffectBlockIndex="0" keyIndex="0" keyType="Chroma" input="Camera7"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.449997"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-10.92"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="-5.00002"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="5.02"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="-0.100006"/>
+            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="0" input="Camera1"/>
+            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="1" input="Camera2"/>
+        </Macro>
+        <Macro index="7" name="s/src cam+cam 2" description="s/src cam2 at LB, cam1 at R, cam7 at top">
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="SuperSource"/>
+            <Op id="CutTransition" mixEffectBlockIndex="0"/>
+            <Op id="MediaPlayerSourceStillIndex" mediaPlayer="0" index="2"/>
+            <Op id="MediaPlayerSourceStill" mediaPlayer="0"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="1" enable="False"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="0"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="False"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="0"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="2" yPosition="0"/>
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="2" size="1"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="2" enable="False"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="2" left="0"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="2" top="0"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="2" right="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="2" bottom="0"/>
+            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="False"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="3" xPosition="0"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="3" yPosition="0"/>
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="3" size="1"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="3" enable="False"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="3" left="0"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="3" top="0"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="3" right="0"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="3" bottom="0"/>
+            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="0" enable="True"/>
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="0.669998"/>
+            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="5"/>
+            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
+            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="5"/>
+            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
+            <Op id="KeyTypeFillInput" mixEffectBlockIndex="0" keyIndex="0" keyType="Chroma" input="Camera7"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="True"/>
+            <Op id="KeyMaskEnable" mixEffectBlockIndex="0" keyIndex="0" enable="False"/>
+            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.449997"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-10.92"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="-5.00002"/>
+            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="5.02"/>
+            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="-0.100006"/>
+            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="0" input="Camera2"/>
+            <Op id="SuperSourceV2BoxInput" superSource="0" boxIndex="1" input="Camera1"/>
+        </Macro>
+        <Macro index="8" name="2 cam switch 30s" description="*loop* cam1-&gt;cam2-&gt;cam1">
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
+            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="3" onAir="False"/>
+            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera1"/>
+            <Op id="CutTransition" mixEffectBlockIndex="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera1"/>
+            <Op id="MacroSleep" frames="900"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera2"/>
+            <Op id="CutTransition" mixEffectBlockIndex="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera2"/>
+            <Op id="MacroSleep" frames="900"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera1"/>
+            <Op id="CutTransition" mixEffectBlockIndex="0"/>
+            <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera1"/>
+        </Macro>
+        <Macro index="9" name="4 cam quad view" description="s/src cam1, cam2, cam3, cam4 w/ quad layout">
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="SuperSource"/>
             <Op id="CutTransition" mixEffectBlockIndex="0"/>
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="SuperSource"/>
@@ -802,7 +802,7 @@
             <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="3" right="0"/>
             <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="3" bottom="0"/>
         </Macro>
-        <Macro index="17" name="4 cam switch 30s" description="*loop* cam1-&gt;cam2-&gt;cam3-&gt;cam4-&gt;cam1">
+        <Macro index="10" name="4 cam switch 30s" description="*loop* cam1-&gt;cam2-&gt;cam3-&gt;cam4-&gt;cam1">
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
             <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="2" onAir="False"/>
@@ -827,69 +827,6 @@
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera1"/>
             <Op id="CutTransition" mixEffectBlockIndex="0"/>
             <Op id="PreviewInput" mixEffectBlockIndex="0" input="Camera1"/>
-        </Macro>
-        <Macro index="18" name="cam8+cam1 dve" description="">
-            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background, Key1, Key2"/>
-            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="1" onAir="False"/>
-            <Op id="KeyOnAir" mixEffectBlockIndex="0" keyIndex="0" onAir="False"/>
-            <Op id="PreviewInput" mixEffectBlockIndex="0" input="MediaPlayer1"/>
-            <Op id="CutTransition" mixEffectBlockIndex="0"/>
-            <Op id="PreviewInput" mixEffectBlockIndex="0" input="MediaPlayer1"/>
-            <Op id="KeyTypeFillInput" mixEffectBlockIndex="0" keyIndex="0" keyType="DVE" input="Camera8"/>
-            <Op id="DVEKeyMaskLeft" mixEffectBlockIndex="0" keyIndex="1" left="4.5"/>
-            <Op id="DVEKeyMaskTop" mixEffectBlockIndex="0" keyIndex="1" top="0"/>
-            <Op id="DVEKeyMaskRight" mixEffectBlockIndex="0" keyIndex="1" right="4.5"/>
-            <Op id="DVEKeyMaskBottom" mixEffectBlockIndex="0" keyIndex="1" bottom="0"/>
-            <Op id="DVEAndFlyKeyXSize" mixEffectBlockIndex="0" keyIndex="1" xSize="0.380005"/>
-            <Op id="DVEAndFlyKeyYSize" mixEffectBlockIndex="0" keyIndex="1" ySize="0.380005"/>
-            <Op id="DVEAndFlyKeyXPosition" mixEffectBlockIndex="0" keyIndex="1" xPosition="11.4"/>
-            <Op id="DVEAndFlyKeyYPosition" mixEffectBlockIndex="0" keyIndex="1" yPosition="-5.3"/>
-            <Op id="KeyFillInput" mixEffectBlockIndex="0" keyIndex="1" input="Camera1"/>
-            <Op id="KeyTypeFillInput" mixEffectBlockIndex="0" keyIndex="1" keyType="DVE" input="Camera1"/>
-            <Op id="TransitionSource" mixEffectBlockIndex="0" source="Background, Key1, Key2"/>
-        </Macro>
-        <Macro index="19" name="cam1-4 quad" description="">
-            <Op id="PreviewInput" mixEffectBlockIndex="0" input="SuperSource"/>
-            <Op id="CutTransition" mixEffectBlockIndex="0"/>
-            <Op id="PreviewInput" mixEffectBlockIndex="0" input="SuperSource"/>
-            <Op id="CutTransition" mixEffectBlockIndex="0"/>
-            <Op id="PreviewInput" mixEffectBlockIndex="0" input="SuperSource"/>
-            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="0" enable="True"/>
-            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="0" xPosition="-7.58"/>
-            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="0" yPosition="4.25"/>
-            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="0" size="0.417007"/>
-            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="0" enable="False"/>
-            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="0" left="0"/>
-            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="0" top="0"/>
-            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="0" right="0"/>
-            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="0" bottom="0"/>
-            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="1" enable="True"/>
-            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="1" xPosition="7.58"/>
-            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="1" yPosition="4.25"/>
-            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="1" size="0.417007"/>
-            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="1" enable="False"/>
-            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="1" left="0"/>
-            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="1" top="0"/>
-            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="1" right="0"/>
-            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="1" bottom="0"/>
-            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="2" enable="True"/>
-            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="2" xPosition="-7.58"/>
-            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="2" yPosition="-4.25002"/>
-            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="2" size="0.417007"/>
-            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="2" enable="False"/>
-            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="2" left="0"/>
-            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="2" top="0"/>
-            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="2" right="0"/>
-            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="2" bottom="0"/>
-            <Op id="SuperSourceV2BoxEnable" superSource="0" boxIndex="3" enable="True"/>
-            <Op id="SuperSourceV2BoxXPosition" superSource="0" boxIndex="3" xPosition="7.58"/>
-            <Op id="SuperSourceV2BoxYPosition" superSource="0" boxIndex="3" yPosition="-4.25002"/>
-            <Op id="SuperSourceV2BoxSize" superSource="0" boxIndex="3" size="0.417007"/>
-            <Op id="SuperSourceV2BoxMaskEnable" superSource="0" boxIndex="3" enable="False"/>
-            <Op id="SuperSourceV2BoxMaskLeft" superSource="0" boxIndex="3" left="0"/>
-            <Op id="SuperSourceV2BoxMaskTop" superSource="0" boxIndex="3" top="0"/>
-            <Op id="SuperSourceV2BoxMaskRight" superSource="0" boxIndex="3" right="0"/>
-            <Op id="SuperSourceV2BoxMaskBottom" superSource="0" boxIndex="3" bottom="0"/>
         </Macro>
     </MacroPool>
     <MacroControl loop="False"/>
