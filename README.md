@@ -14,3 +14,8 @@
 - plug any device in order to show the screen into atem's cam8
 - use atem's hdmi out to see the result
 - hit record & go live!
+
+# What's inside
+- browser source (slido) 600x600
+- browser source (subtitle) 1920x120
+- color source (green) 00ff00
